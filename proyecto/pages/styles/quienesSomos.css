@@ -1,0 +1,133 @@
+.navbar {
+    background-color: #4a1e6a; 
+    padding: 1rem 2rem;
+    border-bottom: 3px solid #00ff9d; 
+    box-shadow: 0 4px 12px rgba(0, 255, 157, 0.3);
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.navbar a {
+    color: #00ff9d; 
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.navbar a:hover {
+    background-color: #00ff9d;
+    color: #1a1a2e;
+    box-shadow: 0 0 15px #00ff9d;
+}
+
+.footer {
+    background-color: #4a1e6a;
+    color: #00ff9d;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: auto;
+    border-top: 3px solid #00ff9d;
+    font-size: 0.9rem;
+}
+
+.footer p {
+    text-shadow: 0 0 5px #00ff9d;
+}
+
+body {
+    background-color: #1a1a2e;
+    color: #e6e6e6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+    padding: 2rem;
+}
+
+.card {
+    background-color: rgba(26, 26, 46, 0.8);
+    border: 1px solid #4a1e6a;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(74, 30, 106, 0.5);
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+.card-title {
+    color: #00ff9d;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    border-bottom: 2px solid #4a1e6a;
+    padding-bottom: 1rem;
+}
+
+.class-title2 {
+    color: #00ff9d;
+    font-size: 1.5rem;
+    margin: 1.5rem 0 1rem;
+    border-bottom: 1px solid #4a1e6a;
+    padding-bottom: 0.5rem;
+}
+
+.card-text, .class-text2 {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.class-text2::before {
+    content: "➤";
+    color: #00ff9d;
+    margin-right: 0.5rem;
+}
+
+.card-text, .class-text2 {
+    color: #d0d0e0; 
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 1.2rem;
+}
+
+.card-text2 {
+    color: #d8d8f0;
+}
+
+.main-header {
+    background-color: #2a2a3e;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid #00ff9d;
+}
+
+.header-logo {
+    height: 60px;
+    transition: transform 0.3s ease;
+}
+
+.header-logo:hover {
+    transform: scale(1.05);
+}
+
+.navbar {
+    background-color: #4a1e6a;
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 12px rgba(0, 255, 157, 0.3);
+}
+
+.container.py-5 {
+    margin-top: 20px;
+}
